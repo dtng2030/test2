@@ -3,9 +3,8 @@
 #include <iostream>
 using namespace std;
 int main(){
- int g1,g2,p1,p2,s1,s2;
- cin>>g1>>p1>>s1;
- cin>>g2>>p2>>s2;
- cout<<"cong: "<<g1+g2<<"gio "<<p1+p2<<"phut "<<s1+s2<<"giay"<<endl;
- cout<<"tru: "<<g1-g2<<" gio"<<p1-p2<<" phut "<<s1-s2<<"giay"<<endl;
+ int n;
+ cout<<"Nhap so nguyen n: ";
+ cin>>n;
+ cout<<"\nSo nguyen vua nhap la: "<<n;
  return 0; }
